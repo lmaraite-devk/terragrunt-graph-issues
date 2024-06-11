@@ -4,14 +4,14 @@ This repo demonstrates issues I've encountered while using `terragrunt graph`.
 # Table of Contents
 * [Initial Setup](#initial-setup)
 * [Issues](#issues)
-  * [Issue 1: --terrgrunt-working-dir does not work properly](#issue-1---terrgrunt-working-dir-does-not-work-properly)
+  * [gruntwork-io/terragrunt#3191: --terrgrunt-working-dir does not work properly](#httpsgithubcomgruntwork-ioterragruntissues3191---terrgrunt-working-dir-does-not-work-properly)
 
 ## Initial Setup
 Run `terragrunt run-all apply` on top level of the repository.
 
 ## Issues
 
-### Issue 1: --terrgrunt-working-dir does not work properly
+### https://github.com/gruntwork-io/terragrunt/issues/3191: --terrgrunt-working-dir does not work properly
 Executing `terragrunt graph` with --terragrunt-working-dir acts different as jumping into the dir with `cd` and
 executing `terragrunt graph` there.
 
